@@ -6,13 +6,13 @@ global $db;
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/ecommerce/");
+	define("BASE_URL", "http://ecommerce.local/");
 	$config['dbname'] = 'lojavirtual';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'willian';
 	$config['dbpass'] = 'Will*081596';
 } else {
-	define("BASE_URL", "http://localhost/ecommerce/");
+	define("BASE_URL", "http://ecommerce.local/");
 	$config['dbname'] = 'lojavirtual';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'willian';
